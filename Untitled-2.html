@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica IDW</title>
+</head>
+<body>
+    <header>
+        La etiqueta header contiene la cabezera, practicamente se presenta como barra en la que se muestra la informacion, logo, descripcion, etc.
+    </header>
+    <nav>
+        Nav contiene la barra de navegacion de una pagina web
+    </nav>
+    <main>
+    <section>
+        Esta es una seccion de contenido del bloque principal (MAIN)
+            <article>
+                Esto es un articulo del sitio
+            </article>
+            <article>
+                Este serie el segundo articulo
+            </article>
+    </section>
+    </main>
+    <aside>
+        La etiqueta aside contiene informacion accesoria, que nos suele añadir un valor significativo a la tematica de la pagina.
+        Puede ser usada para la barra lateral en las que puede ir elementos de widgets, con cualquier contenido dentro
+    </aside>
+    <footer>
+        Footer contiene el pie de pagina, puede ir en ellla enlaces, mapa del sitio, etc.
+    </footer>
+
+
+    <figure>
+        <img src="img/boca.jpg" alt="El rey de copas" width="50%">
+        <figcaption>Fig.1 - Escudo de Boca Juniors</figcaption>
+    </figure>
+    <video width="320" height="240" controls>
+        <source src="bandera.mp4" type="video/mp4">
+        <source src="bandera.ogg" type="video/ogg">
+        Su navegador no soporta la etiqueta video
+    </video>
+    <audio controls>
+        <source src="dale-boca.ogg" type="audio/ogg">
+        <source src="dale-boca.mp3" type="audio/mpeg">
+        Su navegador no soporta el elemento audio
+    </audio>
+    <br>
+    <br>
+    <h3>FORMULARIOS EN HTML 5</h3>
+
+    <h5>FORMULARIO - ATRIBUTOS</h5>
+    <p>REQUIRED: obliga al usuario a completar una seccion del formulario</p>
+    <p>READONLY(solo lectura): no permite ingresar datos nuevos</p>
+    <p>DISABLE: deshabilita casillas en el formulario</p>
+    <p>PLACEHOLDER: le muestra una ayuda al usuario en gris (ej: ingrese su nombre)</p>
+    <p>AUTOFOCUS: posiciona al curor en el elemento que fallo o que nosotros elegimos</p>
+    <p>NOVALIDATE: no controla lo que el usuario ingres</p>
+
+    <form method="post" action="...">
+        
+        <label for="fecha">Fecha</label><br>
+        <input type="date">
+        <br>
+        <label for="fechayhora">Fecha y Hora</label><br>
+        <input type="datetime-local">
+        <br>
+        <label for="mes">Mes</label><br>
+        <input type="month">
+        <br>
+        <label for="semana">Semana</label><br>
+        <input type="week">
+        <br>
+        <label for="hora">Hora</label><br>
+        <input type="time">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" required>
+        <br>
+        <label for="numero">Numero</label><br>
+        <input type="number">
+        <br>
+        <label for="color">Color</label><br>
+        <input type="color">
+        <br>
+        <label for="url">URL</label><br>
+        <input type="url">
+
+        <br>
+        <br>
+        Enviar<input type="submit">
+    </form>
+</body>
+</html>
